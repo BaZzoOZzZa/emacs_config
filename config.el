@@ -74,3 +74,7 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+(setq lsp-dart-sdk-dir "/usr/bin/flutter/bin/cache/dart-sdk/")
+(setq lsp-dart-flutter-sdk-dir "/usr/bin/flutter/")
+(setq lsp-dart-dap-use-sdk-debugger t)
